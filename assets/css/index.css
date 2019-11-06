@@ -2,3 +2,19 @@ html, body {
     width: 100%;
     margin: 0;
 }
+
+@font-face {
+    font-family: RocketRinder;
+    src: url(RocketRinder-yV5d.ttf);
+}
+
+.headertxt {
+    font-family: RocketRinder;
+    text-align: center;
+}
+
+section.start {
+    background-image: url('assets/images/header.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
