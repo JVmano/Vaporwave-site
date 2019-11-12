@@ -14,7 +14,32 @@ html, body {
 }
 
 section.start {
-    background-image: url('assets/images/header.jpg');
+    background-image: url('../images/header.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-position-y: 60%;
+    background-position-x: 50%;
+}
+
+section.start h1 {
+    padding-top: 40%;
+    padding-bottom: 39%;
+    color: aliceblue;
+}
+
+.bg-nav {
+	background: transparent !important;
+	transition: 500ms ease;
+}
+
+.bg-nav.scrolled {
+	background-color: #c1c1c1 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff !important;
+}
+
+.navbar-light .navbar-nav:hover .nav-link:hover {
+	color: #00FFFF !important;
 }
