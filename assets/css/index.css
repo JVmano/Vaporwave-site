@@ -3,6 +3,7 @@ body, html {
     margin: 0%;
     padding: 0%;
     background-color: #6b277e !important;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -17,7 +18,7 @@ body, html {
 
 .bg-nav {
 	background: transparent !important;
-	transition: 500ms ease;
+    transition: 500ms ease;
 }
 
 .bg-nav.scrolled {
@@ -61,4 +62,8 @@ section.about p {
 
 section.about h1 {
     color: magenta;
+}
+
+section.team h1 {
+    text-align: center;
 }
