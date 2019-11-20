@@ -24,11 +24,11 @@ body, html {
 
 .bg-nav {
 	background: transparent !important;
-    transition: 500ms ease;
+	transition: 500ms ease;
 }
 
 .bg-nav.scrolled {
-	background-color: #c1c1c1 !important;
+	background-color: #971ae0 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -82,6 +82,10 @@ section.team h1 {
     font-family: Streamster;
     font-size: 4em;
     padding-top: 3%;
+}
+
+section.team h3 {
+    color: deeppink;
 }
 
 section.team p {

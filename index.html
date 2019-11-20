@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/index.css">
@@ -18,8 +19,8 @@
     <title>Hello, world!</title>
   </head>
 
-  <header> <!-- Font: Cyberspace Raceway e RocketRinder -->
-    <nav class="bg-nav navbar navbar-expand-lg d-flex flex-row-reverse fixed-top"> <!--  navbar-light bg-light -->
+  <!-- <header> 
+    <nav class="bg-nav navbar navbar-expand-lg d-flex flex-row-reverse fixed-top">
         <a class="navbar-brand" href="#"><img src="assets/images/Ryders.png" width="100"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,39 @@
           </div>
         </div>
       </nav>
+  </header> -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-nav navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/Ryders.png" width="100" style="position: absolute; top: 1%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoadicional" aria-controls="conteudoadicional" aria-expanded="false" aria-label="Alterna navega��o">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="conteudoadicional">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">In�cio <span class="sr-only">(p�gina atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#objectives">Objetivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#origin">Origem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#waas">WAAS</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
   </header>
+  
   
   <body>
     <section class="start" id="start">
@@ -53,7 +86,7 @@
     <section class="team" id="team">
       <div class="container">
         <h1>A equipe</h1> <br>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt nibh eu pharetra blandit. Vivamus semper mauris et libero hendrerit vehicula vel ut justo. Integer sollicitudin mauris at dolor accumsan congue. Integer et sem ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean at lacus ipsum. Pellentesque commodo facilisis lectus sit amet suscipit. Nulla quis arcu blandit, pellentesque orci eget, luctus ligula. Nulla velit erat, imperdiet quis tristique non, fringilla nec augue. Integer finibus tortor sit amet nunc ornare, sed lobortis ipsum tincidunt. Cras porttitor metus at dui vulputate efficitur sed id mauris. In in est tellus. Suspendisse in varius magna.</h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt nibh eu pharetra blandit. Vivamus semper mauris et libero hendrerit vehicula vel ut justo. Integer sollicitudin mauris at dolor accumsan congue. Integer et sem ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean at lacus ipsum. Pellentesque commodo facilisis lectus sit amet suscipit. Nulla quis arcu blandit, pellentesque orci eget, luctus ligula. Nulla velit erat, imperdiet quis tristique non, fringilla nec augue. Integer finibus tortor sit amet nunc ornare, sed lobortis ipsum tincidunt. Cras porttitor metus at dui vulputate efficitur sed id mauris. In in est tellus. Suspendisse in varius magna.</h5> <br>
       <div class="row">
         <div class="col-sm member">
             <img src="assets/images/Yang.png" width="350" class="img-fluid">
@@ -94,11 +127,13 @@
       </div>
     </section>
 
-    <!-- Optional JavaScript -->
-    <script src="/assets/js/scripts.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Main script -->
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    
   </body>
 </html>
