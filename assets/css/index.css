@@ -4,6 +4,7 @@ body, html {
     padding: 0%;
     background-color: #6b277e !important;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -14,6 +15,11 @@ body, html {
 @font-face {
     font-family: VCR;
     src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+    font-family: Streamster;
+    src: url(Streamster.ttf);
 }
 
 .bg-nav {
@@ -36,9 +42,10 @@ body, html {
 section.start {
     background-image: url('../images/header.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position-y: 60%;
     background-position-x: 50%;
+    background-size: auto;
 }
 
 section.start h1 {
@@ -47,23 +54,49 @@ section.start h1 {
     color: aliceblue;
     font-family: RocketRinder;
     text-align: center;
-    
 }
 
 section.about {
-    background-image: url('../images/about2.png');
+    background-image: url('../images/about_final.png');
     background-repeat: no-repeat;
 }
 
 section.about p {
     font-family: VCR;
     color: azure;
+    padding-bottom: 10%;
 }
 
 section.about h1 {
     color: magenta;
 }
 
+section.team {
+    background-image: url('../images/team.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 section.team h1 {
     text-align: center;
+    font-family: Streamster;
+    font-size: 4em;
+    padding-top: 3%;
+}
+
+section.team p {
+    font-family: VCR;
+    color: indigo;
+}
+
+.member {
+    background-image: url('../images/aqua.png');
+    background-repeat: no-repeat;
+    background-size: 370px;
+    text-align: center;
+}
+
+section.team h5 {
+    color: mediumturquoise;
+    font-family: VCR;
 }
