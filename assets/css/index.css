@@ -36,7 +36,8 @@ body, html {
 }
 
 .navbar-light .navbar-nav:hover .nav-link:hover {
-	color: #00FFFF !important;
+	/*color: #00FFFF !important;*/
+    background-color: #ff00f7;
 }
 
 section.start {
@@ -91,6 +92,7 @@ section.team h3 {
 section.team p {
     font-family: VCR;
     color: indigo;
+    background-color: azure;
 }
 
 .member {
