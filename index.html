@@ -19,6 +19,21 @@
     <title>Ryders Gaming</title>
 
     <link rel="shortcut icon" href="assets/images/Ryders.ico" />
+
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
+    <link href="assets/css/nes.min.css" rel="stylesheet">
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link href="assets/css/nes-core.min.css" rel="stylesheet">
+
+    <!-- Fonte pixelada -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="assets/css/Press Start 2P.ttf">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
   </head>
 
   <header>
@@ -42,7 +57,7 @@
               <a class="nav-link" href="#team">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -72,7 +87,7 @@
         <h5>A Ilustríssima equipe conta com os melhores jogadores do cenário competitivo atual, uma equipe onde a cooperação e a sinergia são naturais em cada partida efetuada. Cada um com seu respectivo potencial e foco no game, sempre explorando novos estilos de jogo.</h5> <br>
       <div class="row">
         <div class="col-sm member">
-            <img src="assets/images/Yang.png" width="350" class="img-fluid">
+          <a class="c-preview"><img src="assets/images/Yang.png" width="350" class="img-fluid c-preview__img"></a>
             <h3>【﻿Ｙａｎｇ】</h3>
             <p>FELIPE "YANG" ZHAO<br>
             TOP LANE</p>
@@ -109,6 +124,28 @@
         </div>
       </div>
     </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 style="color: white;">Contato</h1>
+        <div class="nes-container is-dark with-title">
+            <form class="contact">
+                <div style="background-color:#212529; padding: 1rem;" class="nes-field is-inline">
+                  <label for="dark_field" style="color:#fff;">Nome</label>
+                  <input type="text" id="dark_field" class="nes-input is-dark" placeholder="Digite seu nome...">
+                </div>
+                <div style="background-color:#212529; padding: 1rem;" class="nes-field is-inline">
+                  <label for="dark_field email" style="color:#fff;">Email</label>
+                  <input type="text" id="dark_field email" class="nes-input is-dark" placeholder="Digite seu email...">
+                </div>
+                <label for="textarea_field">Descrição</label>
+                <textarea id="textarea_field" class="nes-textarea"></textarea>
+                <button type="button" class="nes-btn is-primary">Enviar</button>
+                <i class="nes-kirby float-right"></i>
+            </form>
+          </div>
+      </div>
+    </section>    
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

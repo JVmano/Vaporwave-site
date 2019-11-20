@@ -106,3 +106,13 @@ section.team h5 {
     color: mediumturquoise;
     font-family: VCR;
 }
+
+.contact {
+    padding: 2%;
+    font-family: "Press Start 2P";
+}
+
+section.form h1 {
+    text-align: center;
+    padding-top: 1%;
+}
